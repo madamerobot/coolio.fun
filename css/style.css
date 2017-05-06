@@ -23,7 +23,8 @@ iframe{
 }
 
 .bg {
-	background-image: url(../images/wallpaper-mint.png);
+	/*background-image: url(../images/wallpaper-mint.png);*/
+	background: radial-gradient(#FBEA0E 0, #99CC99 80%, #FBEA0E 100%);
 	background-repeat: no-repeat;
 	font-family: raleway;
 	font-style: italic;
