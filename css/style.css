@@ -14,7 +14,6 @@
 iframe{ 
 	border: none; };
 
-
 .icon-block {
   padding: 0 15px;
 }
@@ -23,9 +22,7 @@ iframe{
 }
 
 .bg {
-	/*background-image: url(../images/wallpaper-mint.png);*/
 	background: radial-gradient(#FBEA0E 0, #99CC99 80%, #FBEA0E 100%);
-	background-repeat: no-repeat;
 	font-family: raleway;
 	font-style: italic;
 }
@@ -33,11 +30,13 @@ iframe{
 .markerpink {
 	background-color: #EB92BA;
 	color: white;
+	margin-bottom: 3px;
 }
 
 .markerblack {
 	background-color: black;
 	color: white;
+	margin-bottom: 3px;
 }
 
 .mybutton{
@@ -48,16 +47,17 @@ iframe{
 	background-color: white;
 	border-color: black;
 	border: 3px;
-	padding: 8px;
 	border-style: dotted;
 	box-shadow: 10px 10px 0px;
-	/*padding: 10px;*/
+
+	text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.mybutton.mouseover{
-	background-color: grey;
-}
-
-.balloongame {
-	iframe{ border: none; }
+.buttons{
+	padding: 40px;
 }
