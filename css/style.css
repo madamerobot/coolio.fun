@@ -37,12 +37,14 @@
 
 .mybutton{
 	font-family: raleway;
-	font-style: bold;
+	font-size: 30px;
 	text-transform: uppercase;
 	color: black;
 	background-color: white;
 	border-color: black;
 	border: 3px;
+	padding: 8px;
 	border-style: dotted;
-	padding: 10px;
+	box-shadow: 10px 10px 0px;
+	/*padding: 10px;*/
 }
