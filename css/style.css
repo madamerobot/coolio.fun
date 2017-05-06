@@ -6,9 +6,43 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+     font-family: raleway;
+     src: url("../../fonts/Raleway-ExtraBoldItalic.ttf");
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.bg {
+	background-image: url(../images/wallpaper-mint.png);
+	background-repeat: no-repeat;
+	font-family: raleway;
+	font-style: italic;
+}
+
+.markerpink {
+	background-color: #EB92BA;
+	color: white;
+}
+
+.markerblack {
+	background-color: black;
+	color: white;
+}
+
+.mybutton{
+	font-family: raleway;
+	font-style: bold;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	border-color: black;
+	border: 3px;
+	border-style: dotted;
+	padding: 10px;
 }
