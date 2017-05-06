@@ -11,6 +11,10 @@
      src: url("../../fonts/Raleway-ExtraBoldItalic.ttf");
 }
 
+iframe{ 
+	border: none; };
+
+
 .icon-block {
   padding: 0 15px;
 }
@@ -38,7 +42,7 @@
 .mybutton{
 	font-family: raleway;
 	font-size: 30px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: black;
 	background-color: white;
 	border-color: black;
@@ -47,4 +51,12 @@
 	border-style: dotted;
 	box-shadow: 10px 10px 0px;
 	/*padding: 10px;*/
+}
+
+.mybutton.mouseover{
+	background-color: grey;
+}
+
+.balloongame {
+	iframe{ border: none; }
 }
