@@ -18,6 +18,10 @@ body{
 	font-size: 10px;
 }
 
+.box{
+padding: 20px;
+}
+
 .icon-block {
   padding: 0 15px;
 }
