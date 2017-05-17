@@ -7,12 +7,16 @@
  */
 
 @font-face {
-     font-family: raleway;
+     font-family: raleway, Helvetica, monospace;
      src: url("../../fonts/Raleway-ExtraBoldItalic.ttf");
 }
 
 iframe{ 
 	border: none; };
+
+body{
+	font-size: 10px;
+}
 
 .icon-block {
   padding: 0 15px;
@@ -22,25 +26,55 @@ iframe{
 }
 
 .bg {
-	background: radial-gradient(#FBEA0E 0, #99CC99 80%, #FBEA0E 100%);
+	background: radial-gradient(#00ffff 0, #6ad3ff 79%);
 	font-family: raleway;
 	font-style: italic;
 }
 
-.markerpink {
-	background-color: #EB92BA;
-	color: white;
+.headerblk{
+	background-color: black;
+}
+
+#headerbtn {
+	text-align: center;
+}
+
+.profilepic{
+	display: inline;
+}
+
+.markerwhite {
+	background-color: #FFFFFF;
+	color: black;
 	margin-bottom: 3px;
+	font-size: 30px;
+}
+
+.markerred {
+background-color: #f44274;
+}
+
+.markerorange{
+background-color: #fcd928;
+}
+
+.markerlockdown{
+background-color: #fc4231;
 }
 
 .markerblack {
 	background-color: black;
 	color: white;
 	margin-bottom: 3px;
+	font-size: 30px;
+}
+
+.energylevel{
+	font-size: 30px;
 }
 
 .mybutton{
-	font-family: raleway;
+	font-family: raleway, Helvetica, monospace;
 	font-size: 30px;
 	/*text-transform: uppercase;*/
 	color: black;
