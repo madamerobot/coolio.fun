@@ -58,6 +58,10 @@ background-color: #f44274;
 background-color: #fcd928;
 }
 
+.headline{
+font-weight: bold;
+}
+
 .markerlockdown{
 background-color: #fc4231;
 }
