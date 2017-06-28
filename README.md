@@ -1,5 +1,5 @@
 <h1>Introduction:</h1>
-<p>Live Version of this page can be found here:<a href="coolio.fun"></a></p>
+<p>Live Version of this page can be found at coolio.fun</p>
 
 <h1>About:</h1>
 <p>At the TNW Conference 2017 ‘Battle of the Sensors’, 200 great developers and creative designers, spent 36-hours on developing prototypes of applications based on a sandbox of data points and API’s. This repo is holding the promo page to showcase the product.<br>
